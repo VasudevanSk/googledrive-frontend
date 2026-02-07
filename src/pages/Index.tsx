@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { HardDrive, Upload, FolderOpen, Shield, ArrowRight } from 'lucide-react';
+import ScreenshotCarousel from '@/components/landing/ScreenshotCarousel';
 
 const Index = () => {
   return (
@@ -56,6 +57,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Screenshot Carousel */}
+      <ScreenshotCarousel />
 
       {/* Features Section */}
       <section className="py-20 bg-muted/50">
